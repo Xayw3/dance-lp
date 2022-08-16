@@ -1,0 +1,21 @@
+@import '../../styles/vars.scss';
+
+.menu__list {
+  display: flex;
+  gap: 42px;
+}
+
+.menu__link {
+  color: $text-color;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* 768-991px */
+
+@media screen and (max-width: 991px) {
+  .menu__list {
+    gap: 30px;
+  }
+}

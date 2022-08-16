@@ -1,0 +1,31 @@
+.section-title {
+  font-size: 50px;
+  line-height: 40px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* 1201-1600px */
+
+@media screen and (max-width: 1600px) {
+  .section-title {
+    line-height: 60px;
+  }
+}
+
+/* 451px-575px */
+
+@media screen and (max-width: 575px) {
+  .section-title {
+    font-size: 38px;
+    line-height: 38px;
+  }
+}
+
+/* 320-450px */
+
+@media screen and (max-width: 450px) {
+  .section-title {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,76 @@
+@import '../../styles/vars.scss';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: $text-color;
+}
+
+.hero-screen {
+  position: relative;
+  padding: 106px 0 87px;
+  background-color: #161617;
+}
+
+.hero-screen__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(247.46deg, rgba(85, 84, 157, 0.2) -0.49%, rgba(18, 11, 44, 0.16) 100%);
+}
+
+.mobile-logo {
+  text-transform: uppercase;
+}
+
+.menu-opener {
+  width: 16px;
+  border: none;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 2px;
+  position: relative;
+  font-size: 0;
+  z-index: 50;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    width: 16px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 16px;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 2px;
+  }
+}
+
+/* 992-1200px */
+
+@media screen and (max-width: 1200px) {
+  .hero-screen {
+    padding-top: 35px;
+  }
+}

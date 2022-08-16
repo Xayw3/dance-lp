@@ -1,0 +1,199 @@
+.classes {
+  padding: 93px 0 108px;
+  background: linear-gradient(247.46deg, rgba(85, 84, 157, 0.2) -0.49%, rgba(18, 11, 44, 0.16) 100%);
+  text-align: center;
+}
+
+.classes-card {
+  display: flex;
+  background-color: #3F4851;
+  padding: 26px 57px 26px 201px;
+  border-radius: 18px;
+  position: relative;
+}
+
+.classes-card__content {
+  text-align: center;
+  font-size: 25px;
+}
+
+.classes-card__image {
+  position: absolute;
+
+  &_1 {
+    left: -111px;
+    top: -63px;
+  }
+
+  &_2 {
+    left: -83px;
+    top: -111px; 
+  }
+
+  &_3 {
+    left: -137px;
+    top: -42px;
+  }
+
+  &_4 {
+    left: -167px;
+    top: -19px;
+  }
+}
+
+
+.classes-level {
+  color: rgba(192, 191, 196, 0.6);
+  margin: 12px 0 14px;
+}
+
+.classes-rating {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.classes-fees {
+  display: flex;
+  gap: 45px;
+  margin: 21px 0 15px;
+  justify-content: center;
+}
+
+.classes-btn {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 25px;
+  line-height: 45px;
+  padding: 14px 50px;
+  background-color: rgba(192, 191, 196, 0.25);;
+}
+
+.classes-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 189px;
+  justify-content: center;
+  margin-top: 165px;
+}
+
+/* 1201-1600px */
+
+@media screen and (max-width: 1600px) {
+  .classes-cards {
+    gap: 110px;
+  }
+
+  .classes-card {
+    padding-left: 180px;
+  }
+
+  .classes-card__image_4 {
+    left: -111px;
+    top: 19px;
+    width: 64%;
+  }
+
+  .classes-card__image_1 {
+    left: -73px;
+  }
+
+  .classes-card__image_3 {
+    left: -67px;
+    top: 14px;
+    width: 60%;
+  }
+}
+
+/* 992-1200px */
+
+@media screen and (max-width: 1200px) {
+  .classes-cards {
+    margin-top: 90px;
+  }
+}
+
+/* 576px-767px */
+
+@media screen and (max-width: 767px) {
+  .classes-card__image_1 {
+    top: -11px;
+    left: -48px;
+    width: 51%;
+  }
+
+  .classes-card__image_2 {
+    left: -59px;
+    top: -106px;
+  }
+
+  .classes-card__image_3 {
+    left: -36px;
+    top: 33px;
+    width: 54%;
+  }
+
+  .classes-card__image_4 {
+    left: -46px;
+    top: 89px;
+    width: 51%;
+  }
+}
+
+/* 451px-575px */
+
+@media screen and (max-width: 575px) {
+  .classes-btn {
+    font-size: 14px;
+    padding: 6px 39px;
+  }
+
+  .classes-card__image_1 {
+    top: 31px;
+    left: -17px;
+    width: 48%;
+  }
+
+  .classes-card__image_2 {
+    left: -34px;
+    top: -55px;
+    width: 55%;
+  }
+
+  .classes-card__image_3 {
+    left: -18px;
+    top: 104px;
+    width: 50%;
+  }
+
+  .classes-card__image_4 {
+    left: -20px;
+    top: 99px;
+    width: 51%;
+  }
+}
+
+/* 320-450px */
+
+@media screen and (max-width: 450px) {
+  .classes {
+    padding-top: 40px;
+  }
+
+  .classes-cards {
+    margin-top: 47px;
+  }
+
+  .classes-card {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  .classes-card__image {
+    display: none;
+  }
+
+  .reviews-list__text {
+    font-size: 13px;
+  }
+}
