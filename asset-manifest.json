@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dance-lp/static/css/main.19d18d68.css",
+    "main.js": "/dance-lp/static/js/main.13789992.js",
+    "static/js/787.dc822e54.chunk.js": "/dance-lp/static/js/787.dc822e54.chunk.js",
+    "static/media/contacts-bg.png": "/dance-lp/static/media/contacts-bg.d613ae9ab3284fe8754d.png",
+    "index.html": "/dance-lp/index.html",
+    "main.19d18d68.css.map": "/dance-lp/static/css/main.19d18d68.css.map",
+    "main.13789992.js.map": "/dance-lp/static/js/main.13789992.js.map",
+    "787.dc822e54.chunk.js.map": "/dance-lp/static/js/787.dc822e54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19d18d68.css",
+    "static/js/main.13789992.js"
+  ]
+}
